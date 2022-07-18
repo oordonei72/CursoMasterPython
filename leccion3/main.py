@@ -2,7 +2,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-registro = ['07-07-2022','10:30','15:00',6.50,5,25]
+registro = ['08-07-2022','12:30','15:00',6.50,5,25]
 @app.route('/')
 def home():
     context = {
